@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #09d3ac;
+}
+.add-button {
+  background: url(https://i.ibb.co/xgR7fjh/add-btn.png) 
+  center no-repeat;
+  width: 40px;
+  height: 40px;
+  border: none;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 40px;
+}
+.disable-add-button {
+  background: url(https://i.ibb.co/ZMwQ5Qb/disable-add-btn.png) 
+  center no-repeat;
+  width: 96px;
+}
+.remove-button {
+  background: url(https://i.ibb.co/rx0Bp1M/remove-btn.png) 
+  center no-repeat;
+  width: 40px;
+  height: 40px;
+  border: none;
+  position: absolute;
+  margin-top: -20px;
+}
+.disable-remove-button {
+  background: url(https://i.ibb.co/7vQJMgm/disable-remove-btn.png) 
+  center no-repeat;
+  width: 96px;
+}
+.small-pizza {
+  background: url(https://i.ibb.co/kx9WgGX/small-pizza.png) 
+  center no-repeat;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -60px;
+}
+.medium-pizza {
+  background: url(https://i.ibb.co/k6PM6k0/medium-pizza.png) 
+  center no-repeat;
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -60px;
+}
+.large-pizza {
+  background: url(https://i.ibb.co/ZgCycFC/rsz-large-pizza.png) 
+  center no-repeat;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -60px;
+}
+.adults {
+  background: url(https://i.ibb.co/vsF3Vq4/adults.png) 
+  center no-repeat;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 10px;
+}
+.children {
+  background: url(https://i.ibb.co/cQkRw5M/children.png) 
+  center no-repeat;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 10px;
+}
+.heading {
+  margin-top: 30px;
+  color: #0000A0;
+}
+.main-container {
+  width: 80%;
+  border: 2px solid #808080;
+}
+.content {
+  padding-left: 30px;
+  padding-right: 60px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.small {
+  margin-left: 22px;
+}
+.large {
+  margin-left: 26px;
+}
+.person-content {
+  padding-left: 70px;
+}
+.person-button {
+  margin-left: 188px;
+  margin-top: 20px;
+}
+.order-price {
+  margin-top: 30px;
+  margin-left: 160px;
+}
+.pizza-count {
+  margin-left: 80px;
+  font-size: 30px;
+}
